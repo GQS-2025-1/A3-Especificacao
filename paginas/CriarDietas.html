@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/CalcularMetabolismo.css">
+    <title>Criar Dieta</title>
+</head>
+<body>
+      <header class="CabecalhoIndex">
+        <div class="MenuCabecalho">
+            <div class="imagemLogoCabecalho">
+                <img  onclick="window.location.href='index.html'" src="../imagens/logo.png" alt="ImagemLogo">
+            </div>
+
+            <div class="IntensCabecalhoIndex">
+                <!--<img class="ImagemCabecalhoIndex" src="../imagens/telefones.png" alt="ImagemAoLadoDoTexto">!-->
+                <a href="#">Lorem1</a>
+            </div>
+            <div class="linhaVertical"></div><!--linha -->
+            <div class="IntensCabecalhoIndex">
+                <!--<img class="ImagemCabecalhoIndex" src="../imagens/telefones.png" alt="ImagemAoLadoDoTexto">!-->
+                <a href="#">Lorem, ipsum.</a>
+            </div>
+            <div class="linhaVertical"></div><!--linha -->
+            <div class="IntensCabecalhoIndex">
+                <!--<img class="ImagemCabecalhoIndex" src="../imagens/telefones.png" alt="ImagemAoLadoDoTexto">!-->
+                <a href="#">Lorem, ipsum.</a>
+            </div>
+            <div class="linhaVertical"></div><!--linha -->
+            <div class="IntensCabecalhoIndex">
+                <!--<img class="ImagemCabecalhoIndex" src="../imagens/telefones.png" alt="ImagemAoLadoDoTexto">!-->
+                <a id="lista-ramais" href="#">Lorem, ipsum.</a>
+                <!-- Section com os ramais dentro do link --> 
+            </div>
+        </div>
+        <div class="BarraDeMenuCabecalho">
+            <p>Menu</p>
+        </div>
+    </header>
+
+  <div class="container">
+    <h2>Informe seus dados</h2>
+    <div class="form-group">
+      <label for="idade">Dieta</label>
+      <input type="" id="dieta" placeholder="Ex: (Tipo de Dieta)" required />
+    </div>
+    <div class="form-group">
+      <label for="peso">Peso (kg)</label>
+      <input type="number" id="peso" placeholder="Ex: 70" step="0.1" required />
+    </div>
+    <div class="form-group">
+      <label for="altura">Altura (m)</label>
+      <input type="number" id="altura" placeholder="Ex: 1.75" step="0.01" required />
+    </div>
+    <div class="form-group">
+      <label for="idade">Idade</label>
+      <input type="number" id="idade" placeholder="Ex: (0 - 60+)" step="1" required />
+    </div>
+    <div class="form-group">
+      <label for="idade">sexo</label>
+      <input type="number" id="sexo" placeholder="Sexo" step="1" required />
+    </div>
+    <div class="form-group">
+      <label for="idade">Objetivo</label>
+      <input type="number" id="objetivo" placeholder="emagrecer" step="1" required />
+    </div>
+    <div class="form-group">
+      <label for="idade">Alimentos</label>
+      <input type="number" id="alimentos" placeholder="alimentos" step="1" required />
+    </div>
+    <div class="form-group">
+      <label for="idade">Alergia</label>
+      <input type="number" id="alimentos" placeholder="alimentos" step="1" required />
+    </div>
+    <button class="btn" onclick="calcularIMC()">Gerar dieta</button>
+    <div class="resultado" id="resultado"></div>
+  </div>
+</html>
