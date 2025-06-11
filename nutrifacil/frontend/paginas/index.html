@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Caio Vinicius Braga">
+    <title>Home</title>
+    <link rel="stylesheet" href="..\estilos\index.css">
+    <script src="../codigo/carrocel.js"></script>
+    <script src="../codigo/mudaconteudo.js"></script>
+    <script src="../codigo/abrelink.js"></script>
+</head>
+<body>
+
+    <header class="CabecalhoIndex">
+        <div class="MenuCabecalho">
+            <div class="imagemLogoCabecalho">
+                <img src="../imagens/logo.png" alt="ImagemLogo">
+            </div>
+
+            <div class="IntensCabecalhoIndex">
+                <!--<img class="ImagemCabecalhoIndex" src="../imagens/telefones.png" alt="ImagemAoLadoDoTexto">!-->
+                <a href="#">Lorem1</a>
+            </div>
+            <div class="linhaVertical"></div><!--linha -->
+            <div class="IntensCabecalhoIndex">
+                <!--<img class="ImagemCabecalhoIndex" src="../imagens/telefones.png" alt="ImagemAoLadoDoTexto">!-->
+                <a href="#">Lorem, ipsum.</a>
+            </div>
+            <div class="linhaVertical"></div><!--linha -->
+            <div class="IntensCabecalhoIndex">
+                <!--<img class="ImagemCabecalhoIndex" src="../imagens/telefones.png" alt="ImagemAoLadoDoTexto">!-->
+                <a href="#">Lorem, ipsum.</a>
+            </div>
+            <div class="linhaVertical"></div><!--linha -->
+            <div class="IntensCabecalhoIndex">
+                <!--<img class="ImagemCabecalhoIndex" src="../imagens/telefones.png" alt="ImagemAoLadoDoTexto">!-->
+                <a id="lista-ramais" href="#">Lorem, ipsum.</a>
+                <!-- Section com os ramais dentro do link --> 
+            </div>
+        </div>
+        <div class="BarraDeMenuCabecalho">
+            <p>Menu</p>
+        </div>
+    </header>
+
+    <section class="Conteiner"><!-- Conteiner central dos botões-->
+        <div class="ConteudoConteiner">
+            <div class="TextosConteiner">
+                <p>Em desenvolvimento.</p>
+                <h1>Site nutricionista A3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, suscipit accusamus amet dolorem odit pariatur magnam 
+                    recusandae qui harum maxime consequuntur natus. Ab minima sunt laboriosam ipsum alias quisquam exercitationem..</p>
+                <div class="BotoesConteiner">
+                    <button onclick="changeContent()">Lorem, ipsum.</button>
+                </div>
+            </div>
+            
+            <div class="carousel"><!-- Carrossel -->
+                <div class="carousel-images">
+                    <img src="../imagens/carroucel1.jpg" alt="Image 1">
+                    <img src="../imagens/carroucel2.jpeg" alt="Image 2">
+                    <img src="../imagens/carroucel3.jpg" alt="Image 3">
+                </div>
+                <!-- Setas de navegação -->
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+        </div>
+
+        <section class="ConteudoSection" id="novoConteudo" style="display:none;">
+            <div class="ConteinerConteudoSection">
+                <div class="TextosConteiner">
+                    <h1>Lorem.</h1>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <button>Lorem.</button>
+                    <button>Lorem</button>
+                    <button>Lorem</button>
+                </div>
+                <div class="ImagemConteudoSection">
+                    <img src="../imagens/FundoHome6.jpeg" alt="Nova Imagem de Conteúdo">
+                </div>
+            </div>
+            <div class="botaoVoltarNovoConteudo">
+                <button class="voltar" onclick="backToPrevious()">Voltar</button>
+            </div>
+        </section>
+    </section>
+
+    <div class="linhaSeparacao"><!-- Linha que separa-->
+        <hr>
+    </div>
+
+    <!-- sessão de conteúdos do site-->
+    <div class="TituloConteudoSection"><!--Titulo do Conteúdo-->
+        <h1><span class="DestaqueTituloConteudoSection">Explore</span> as nossas opções</h1>
+    </div>
+
+    <section class="ConteudoSection">
+        <div class="ConteinerConteudoSection">
+            <div class="TextoConteudoSection">
+                <h1>Criar dietas</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nesciunt.Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Magnam, impedit.</p>
+                <button onclick="window.location.href='CriarDietas.html'">Criar dietas</button>
+            </div>
+            <div class="ImagemConteudoSection">
+                <img src="../imagens/FundoHome6.jpeg" alt="A primeira Imagem de conteudo">
+            </div>
+        </div>
+
+        <div class="ConteinerConteudoSection">
+            <div class="ImagemConteudoSection">
+                <img src="../imagens/FundoHome6.jpeg" alt="A primeira Imagem de conteudo">
+            </div>
+            <div class="TextoConteudoSection">
+                <h1>Tipos de dieta</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nesciunt.Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Magnam, impedit.</p>
+                <button onclick="window.location.href='TiposDeDieta.html'">Tipos de dieta</button>
+            </div>
+        </div>
+
+        <div class="ConteinerConteudoSection">
+            <div class="TextoConteudoSection">
+                <h1>Calcular IMC</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nesciunt.Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Magnam, impedit.</p>
+                <button onclick="window.location.href='CalcularImc.html'">Calcular IMC</button>
+            </div>
+            <div class="ImagemConteudoSection">
+                <img src="../imagens/FundoHome6.jpeg" alt="A primeira Imagem de conteudo">
+            </div>
+        </div>
+
+        <div class="ConteinerConteudoSection">
+            <div class="ImagemConteudoSection">
+                <img src="../imagens/FundoHome6.jpeg" alt="A primeira Imagem de conteudo">
+            </div>
+            <div class="TextoConteudoSection">
+                <h1>Calcular Metabolismo</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nesciunt.Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Magnam, impedit.</p>
+                <button onclick="window.location.href='CalcularMetabolismo.html'">Calcular Metabolismo</button>
+            </div>
+        </div>
+
+        <div class="ConteinerConteudoSection">
+            <div class="TextoConteudoSection">
+                <h1>Consumo de Agua</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, nesciunt.Lorem ipsum dolor sit,
+                    amet consectetur adipisicing elit. Magnam, impedit.</p>
+                <button onclick="window.location.href='ConsumoAgua.html'">Consumo de Agua</button>
+            </div>
+            <div class="ImagemConteudoSection">
+                <img src="../imagens/FundoHome6.jpeg" alt="A primeira Imagem de conteudo">
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="linhaSeparacao">
+            <hr>
+        </div>
+        <div class="imagensFooter">
+            <img src="../imagens/facebook.png" alt="">
+            <img src="../imagens/Twitter.png" alt="">
+            <img src="../imagens/Youtube.png" alt="">
+            <img src="../imagens/Instagram.png" alt="">
+            <img src="../imagens/linkedin.png" alt="">
+        </div>
+    </footer>
+
+</body>
+
+</html>
