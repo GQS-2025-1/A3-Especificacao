@@ -69,10 +69,10 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
    - Consulte [Como escrever um bom README para seu projeto do GitHub](https://www.freecodecamp.org/portuguese/news/como-escrever-um-bom-arquivo-readme-para-seu-projeto-do-github/).
 
 4. **Testes**  
-   - Teste de Funcionalidade
+   - ## Teste de Funcionalidade
       - Descreva, no mínimo, **5 funcionalidades com cenários** e faça teste de usabilidade usando o template.
      
-      - ## 🧪 Cenário em Gherkin (exemplos)
+      - ### 🧪 Cenário em Gherkin (exemplos)
    
       ```gherkin
       Funcionalidade: Seleção de Dieta
@@ -84,7 +84,7 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
           Então o sistema deve sugerir refeições com azeite, peixes e grãos integrais
       ```
 
-     # 🛠️ Template de Teste de Funcionalidade
+     ### 🛠️ Template de Teste de Funcionalidade
 
       > **Instruções para o testador:**  
       > Preencha cada caso de teste antes de executar, siga os passos na ordem indicada e registre os resultados.
@@ -92,7 +92,7 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
       ---
    
 
-      ## 2. Casos de Teste (exemplo)
+      #### Casos de Teste (exemplo)
       
       | ID   | Funcionalidade                   | Pré-Condição                        | Passos                                                   | Dados de Entrada                          | Resultado Esperado                                                                 | Resultado Obtido                            | Status (✅/❌) | Observações                         |
       | ---- | -------------------------------- | ----------------------------------- | -------------------------------------------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------- | ------------- | ------------------------------------ |
@@ -100,21 +100,21 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
             
       ---
       
-      ## 3. Critérios de Aceitação
+      #### Critérios de Aceitação
       
       - ✅ **Passou:** Resultado Obtido igual ao Resultado Esperado  
       - ❌ **Falhou:** Há divergência entre Resultado Obtido e Esperado  
       
       ---
       
-      ## 4. Registro de Bugs
+      #### Registro de Bugs
       
       | ID do Bug | Caso de Teste Relacionado | Descrição do Problema                              | Severidade (Alta/Média/Baixa) | Status     | Responsável | Link para issue no GitHub                            |
       | --------- | ------------------------- | -------------------------------------------------- | ----------------------------- | ---------- | ----------- | ----------------------------------------------------- |
       | BUG-01    | FT-02                     | TMB calculada incorretamente para valores extremos | Alta                          | Em aberto  | Fulano      | https://github.com/orga-grupo/nutrifacil/issues/123   |
       
       ---
-   - Teste de Usabilidade
+   - ## Teste de Usabilidade
       - Defina 5 metas:
         -  Ex.: “O usuário deve conseguir configurar seu plano em ≤ 3 minutos”
 
@@ -125,14 +125,14 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
         - Ideal: 5 a 8 usuários para cobrir ~85% dos problemas de usabilidade.
         - Utilize o template a seguir para a aplicação do teste.
 
-          # 📝 Template de Registro de Teste de Usabilidade
+          ### 📝 Template de Registro de Teste de Usabilidade
 
             > **Instruções para o moderador:** entregue este formulário ao participante antes do teste.  
             > Peça que ele pense em voz alta enquanto executa cada tarefa e anote suas impressões.
             
             ---
             
-            ## 1. Dados do Participante
+            #### 1. Dados do Participante
             
             - **Nome / Código:**  
             - **Perfil (ex.: iniciante / avançado):**  
@@ -142,7 +142,7 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
             
             ---
             
-            ## 2. Objetivos do Teste
+            #### 2. Objetivos do Teste
             
             1. Avaliar a facilidade de seleção de dieta  
             2. Medir o tempo para preencher dados pessoais  
@@ -151,7 +151,7 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
             
             ---
             
-            ## 3. Tarefas (Preencher durante o teste)
+            #### 3. Tarefas (Preencher durante o teste)
             
             | Nº | Descrição da Tarefa                                         | Tempo Alvo | Tempo Real (s) | Sucesso (S/N) | Erros / Dificuldades                              | Observações do Usuário                            |
             |----|-------------------------------------------------------------|------------|----------------|---------------|---------------------------------------------------|---------------------------------------------------|
@@ -165,7 +165,7 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
             
             ---
             
-            ## 4. Métricas de Satisfação
+            #### 4. Métricas de Satisfação
             
             Para cada critério, marque de **1 (muito ruim)** a **5 (excelente)**:
             
@@ -179,7 +179,7 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
             
             ---
             
-            ## 5. Feedback Aberto
+            #### 5. Feedback Aberto
             
             - **O que você mais gostou?**  
               _Ex.: “As cores ajudam a identificar rapidamente as seções.”_
@@ -192,7 +192,7 @@ Desenvolver em **grupo (máx. 6 alunos)** uma solução completa para o **NutriF
             
             ---
             
-            ## 6. Conclusões do Moderador
+            #### 6. Conclusões do Moderador
             
             - **Principais bloqueios encontrados:**  
               1. …  
